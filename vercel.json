@@ -13,7 +13,7 @@
     },
     {
       "src": "/courses/(.*)",
-      "dest": "http://localhost:8000/$1"
+      "dest": "http://172.20.10.12:8000/$1"
     }
   ]
 }
