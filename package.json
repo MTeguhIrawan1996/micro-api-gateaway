@@ -7,7 +7,7 @@
     "media": "cd ../service-media && npm start",
     "user": "cd ../service-user && npm start",
     "order": "cd ../service-order && php artisan serve --port=8001",
-    "course": "cd ../service-course && php artisan serve --host 172.20.10.12 --port=8000",
+    "course": "cd ../service-course && php artisan serve --port=8000",
     "dev": "concurrently \"nodemon ./bin/www\" \"npm run media\" \"npm run user\" \"npm run order\" \"npm run course\""
   },
   "dependencies": {
