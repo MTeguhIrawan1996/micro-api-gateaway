@@ -30,7 +30,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 app.use(multer().single("image"));
 
-app.use("/", indexRouter);
+app.use("/index", indexRouter);
 app.use("/users", usersRouter);
 app.use("/orders", ordersRouter);
 app.use("/webhooks", webhookRouter);
